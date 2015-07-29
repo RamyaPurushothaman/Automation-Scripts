@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?qbmsxml version="2.1"?>
+<QBMSXML>
+  <SignonMsgsRq>
+    <SignonDesktopRq>
+      <ClientDateTime>03/06/2013</ClientDateTime>
+      <ApplicationLogin>imsqadesktoptest2</ApplicationLogin>
+      <ConnectionTicket>TGT-72-ufUU_avjxYulsjmHRIxLcQ</ConnectionTicket>
+      <Language>English</Language>
+      <AppID>100020122</AppID>
+      <AppVer>1.0</AppVer>
+    </SignonDesktopRq>
+  </SignonMsgsRq>
+   <QBMSXMLMsgsRq>
+      <CustomerCreditCardChargeRq requestID="AuthPTS2 Rq">
+ 	   <TransRequestID>AuthWithPTSTokenMC</TransRequestID>
+  	   <CreditCardToken>9747883270747775</CreditCardToken>
+         <ExpirationMonth>10</ExpirationMonth>
+         <ExpirationYear>2020</ExpirationYear>
+	     <IsRecurring>true</IsRecurring>
+         <Amount>468.00</Amount>
+         <NameOnCard>TestPTSTokenMC</NameOnCard>
+         <CreditCardAddress>35 Rainy Day Drive</CreditCardAddress>
+         <CreditCardPostalCode>98765</CreditCardPostalCode>
+         <CommercialCardCode>DOE2</CommercialCardCode>
+         <SalesTaxAmount>4.68</SalesTaxAmount>
+         <CardSecurityCode>124</CardSecurityCode>
+      </CustomerCreditCardChargeRq>
+   </QBMSXMLMsgsRq>
+</QBMSXML>

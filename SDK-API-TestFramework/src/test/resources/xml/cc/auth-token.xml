@@ -1,0 +1,29 @@
+<?qbmsxml version="2.1"?>
+<QBMSXML>
+  <SignonMsgsRq>
+    <SignonDesktopRq>
+      <ClientDateTime>10/28/99</ClientDateTime>
+      <ApplicationLogin>imsqadesktoptest2</ApplicationLogin>
+      <ConnectionTicket>TGT-72-ufUU_avjxYulsjmHRIxLcQ</ConnectionTicket>
+      <Language>English</Language>
+      <AppID>100020122</AppID>
+      <AppVer>1.0</AppVer>
+    </SignonDesktopRq>
+  </SignonMsgsRq>
+   <QBMSXMLMsgsRq>
+      <CustomerCreditCardAuthRq requestID="Auth Rq">
+ 	   <TransRequestID>Auth111WithMCToken</TransRequestID>
+  	   <CreditCardToken>9949944415411111</CreditCardToken>
+         <ExpirationMonth>10</ExpirationMonth>
+         <ExpirationYear>2020</ExpirationYear>
+	     <IsRecurring>true</IsRecurring>
+         <Amount>467.00</Amount>
+         <NameOnCard>Jane Doe</NameOnCard>
+         <CreditCardAddress>34 Rainy Day Drive</CreditCardAddress>
+         <CreditCardPostalCode>98765</CreditCardPostalCode>
+         <CommercialCardCode>DOE2</CommercialCardCode>
+         <SalesTaxAmount>4.67</SalesTaxAmount>
+         <CardSecurityCode>123</CardSecurityCode>
+      </CustomerCreditCardAuthRq>
+   </QBMSXMLMsgsRq>
+</QBMSXML>

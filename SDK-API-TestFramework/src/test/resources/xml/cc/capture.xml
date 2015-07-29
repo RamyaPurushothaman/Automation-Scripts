@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?qbmsxml version="2.2"?>
+<QBMSXML>
+ <SignonMsgsRq>
+		 <SignonDesktopRq>
+		  	<ClientDateTime>2010-12-15T12:06:50</ClientDateTime>
+			<ApplicationLogin>qbmsdesktopapp1.testdomain.com</ApplicationLogin>
+			<ConnectionTicket>TGT-126-i7luijuUrFg5R7vhocKmlQ</ConnectionTicket>
+		 </SignonDesktopRq>
+	</SignonMsgsRq>
+
+    <QBMSXMLMsgsRq>
+    <CustomerCreditCardCaptureRq>    
+      <TransRequestID>CaptureincrAuth</TransRequestID>
+      <CreditCardTransID>YY1000492535</CreditCardTransID>
+      <Amount>1.00</Amount>
+    </CustomerCreditCardCaptureRq>
+  </QBMSXMLMsgsRq>
+</QBMSXML>

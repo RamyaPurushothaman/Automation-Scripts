@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?qbmsxml version="4.0"?>
+<QBMSXML>
+  <SignonMsgsRq>
+    <SignonDesktopRq>
+      <ClientDateTime>10/28/99</ClientDateTime>
+      <ApplicationLogin>imsqadesktoptest1</ApplicationLogin>
+      <ConnectionTicket>TGT-123-R6Y62O4V5YvpVw5zmeZlug</ConnectionTicket>
+    </SignonDesktopRq>
+  </SignonMsgsRq>
+    <QBMSXMLMsgsRq>
+        <CustomerCheckDebitRq>
+            <TransRequestID>CheckDebit</TransRequestID>
+            <KeyEnteredCheckInfo>
+                <RoutingNumber>490000018</RoutingNumber>
+                <AccountNumber>24413815</AccountNumber>
+                <CheckNumber>8065</CheckNumber>
+                <BusinessPaymentInfo>
+                    <BusinessDebitAccountType>Savings</BusinessDebitAccountType>
+                    <PayorFirstName>Test</PayorFirstName>
+                    <PayorLastName>User</PayorLastName>
+                </BusinessPaymentInfo>
+            </KeyEnteredCheckInfo>
+            <PayorPhoneNumber>6509442060</PayorPhoneNumber>
+            <Amount>185.00</Amount>
+            <PaymentMode>Telephone</PaymentMode>
+            <PayeeName>"Test Merchant</PayeeName>
+            <Comment></Comment>
+        </CustomerCheckDebitRq>
+    </QBMSXMLMsgsRq>
+</QBMSXML>

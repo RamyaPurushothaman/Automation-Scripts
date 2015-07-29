@@ -1,0 +1,23 @@
+<?qbmsxml version="3.1"?>
+<QBMSXML>
+  <SignonMsgsRq>
+    <SignonDesktopRq>
+      <ClientDateTime>10/28/99</ClientDateTime>
+      <ApplicationLogin>imsqadesktoptest2</ApplicationLogin>
+      <ConnectionTicket>TGT-72-ufUU_avjxYulsjmHRIxLcQ</ConnectionTicket>
+      <Language>English</Language>
+      <AppID>100020122</AppID>
+      <AppVer>1.0</AppVer>
+    </SignonDesktopRq>
+  </SignonMsgsRq>
+    <QBMSXMLMsgsRq>
+    <CustomerCreditCardVoiceAuthRq>
+      <TransRequestID>VoiceAuth1_SDK31</TransRequestID>
+      <CreditCardNumber>4111111111111111</CreditCardNumber>
+      <ExpirationMonth>12</ExpirationMonth>
+      <ExpirationYear>2025</ExpirationYear>
+      <Amount>2.45</Amount>
+      <AuthorizationCode>123456</AuthorizationCode>
+    </CustomerCreditCardVoiceAuthRq>    
+  </QBMSXMLMsgsRq>
+</QBMSXML>

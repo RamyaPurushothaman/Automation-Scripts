@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?qbmsxml version="5.0"?>
+<QBMSXML>
+<SignonMsgsRq>
+  <SignonDesktopRq>
+      <ClientDateTime>10/28/99</ClientDateTime>
+      <ApplicationLogin>imsqadesktoptest2</ApplicationLogin>
+      <ConnectionTicket>TGT-72-ufUU_avjxYulsjmHRIxLcQ</ConnectionTicket>
+      <Language>English</Language>
+      <AppID>100020122</AppID>
+      <AppVer>1.0</AppVer>
+  </SignonDesktopRq>
+  </SignonMsgsRq>
+       <QBMSXMLMsgsRq>
+              <MerchantAccountQueryRq/>
+       </QBMSXMLMsgsRq>
+</QBMSXML>

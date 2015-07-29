@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?qbmsxml version="6.1"?>
+<QBMSXML>
+	<SignonMsgsRq>
+		<SignonDesktopRq>
+			<ClientDateTime>02/11/2013</ClientDateTime>
+			<ApplicationLogin>imsqadesktoptest2</ApplicationLogin>
+			<ConnectionTicket>TGT-72-ufUU_avjxYulsjmHRIxLcQ</ConnectionTicket>
+		</SignonDesktopRq>
+	</SignonMsgsRq>
+	<QBMSXMLMsgsRq>
+		<CustomerDebitCardChargeRq>
+			<TransRequestID>DCSaleWithBIDForSDK32test</TransRequestID>
+			<Track2Data>9999999800002773=20121015432112345678</Track2Data>
+			<PINBlock>A5F84A01C8EC5684</PINBlock>
+			<SMID>00000E0040000005</SMID>
+			<Amount>100.00</Amount>
+			<NameOnCard>lucy</NameOnCard>
+			<CashBackAmount></CashBackAmount>
+			<InvoiceID>00000</InvoiceID>                        <!-- opt, field max = 100, v4.4 -->
+			<UserID>000000</UserID>                              <!-- opt, field max = 100, v4.4 -->
+			<GeoLocationInfo>                                     <!-- opt, v4.5 -->
+				<IPAddress>0.0.0.0</IPAddress>                      <!-- opt, field max = 40 -->
+				<Latitude>0.000</Latitude>                        <!-- opt, field max = 20 -->
+				<Longitude>0.00000</Longitude>                      <!-- opt, field max = 20 -->
+			</GeoLocationInfo>
+			<DeviceInfo>                                          <!-- opt, v4.5 -->
+				<DeviceID>000000</DeviceID>                        <!-- opt, field max = 40 -->
+				<DeviceType>Phone</DeviceType>                    <!-- opt, field max = 200 -->
+				<DevicePhoneNumber>000000</DevicePhoneNumber>      <!-- opt, field max = 20 -->
+				<DeviceMACAddress>00-00-00-00-00</DeviceMACAddress>        <!-- opt, field max = 50 -->
+			</DeviceInfo>
+		</CustomerDebitCardChargeRq>
+	</QBMSXMLMsgsRq>
+</QBMSXML>

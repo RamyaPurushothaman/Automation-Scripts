@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Test">
+  <class name="com.intuit.paymentsapi.us.ChargeTest">
+    <test name="testCCCharge" status="2" attributes="[]" />
+  </class>
+</suite>

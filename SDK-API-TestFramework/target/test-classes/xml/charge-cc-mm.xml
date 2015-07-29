@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<?qbmsxml version="4.5"?>
+<QBMSXML>
+	<SignonMsgsRq>
+		 <SignonDesktopRq>
+		  	<ClientDateTime>2013-01-31T12:06:50</ClientDateTime>
+			<ApplicationLogin>mm.intuit.com</ApplicationLogin>
+			<ConnectionTicket>SDK-TGT-170-mwKE_i75z2YJiHAbJAO9BA</ConnectionTicket>
+		 </SignonDesktopRq>
+	</SignonMsgsRq>
+	
+	<QBMSXMLMsgsRq>
+		<CustomerCreditCardChargeRq>
+		  <TransRequestID>MasterMerchant4</TransRequestID>
+		  <CreditCardNumber>4112344112344113</CreditCardNumber>
+		  <ExpirationMonth>12</ExpirationMonth>
+		  <ExpirationYear>2020</ExpirationYear>
+		  <IsCardPresent>false</IsCardPresent>
+		  <Amount>1.00</Amount>
+		  <NameOnCard>Grace Xu</NameOnCard>
+		  <CreditCardAddress>18850 N 56 ST APT301</CreditCardAddress>
+		  <CreditCardCity>Phoenix</CreditCardCity>
+		  <CreditCardState>AZ</CreditCardState>
+		  <CreditCardPostalCode>85054</CreditCardPostalCode>
+	    </CustomerCreditCardChargeRq>
+	 </QBMSXMLMsgsRq>
+</QBMSXML>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<?qbmsxml version="5.0"?>
+<QBMSXML>
+<SignonMsgsRq>
+	<SignonDesktopRq>
+	  <ClientDateTime>2010-12-15T12:06:50</ClientDateTime>
+	  <ApplicationLogin>qbmsdesktopapp1.testdomain.com</ApplicationLogin>
+	  <ConnectionTicket>TGT-126-i7luijuUrFg5R7vhocKmlQ</ConnectionTicket>
+	</SignonDesktopRq>
+</SignonMsgsRq>
+    <QBMSXMLMsgsRq>
+ 	    <CustomerScheduledBillingPaymentQueryRq>
+	      <LogicalExpr1>
+	        <LogicalOp>Or</LogicalOp>
+	        <RelativeExpr>
+	          <RelativeOp>Equals</RelativeOp>
+	          <Name>CustomerID</Name>
+	          <Value>RebillCCWalletVisa1</Value>
+	        </RelativeExpr>
+	        <RelativeExpr>
+	          <RelativeOp>Equals</RelativeOp>
+	          <Name>CustomerID</Name>
+	          <Value>RebillCCWalletAmex2</Value>
+	        </RelativeExpr>
+	      </LogicalExpr1>
+	    </CustomerScheduledBillingPaymentQueryRq>
+    </QBMSXMLMsgsRq>
+</QBMSXML>

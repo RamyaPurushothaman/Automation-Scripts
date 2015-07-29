@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?qbmsxml version="5.0"?>
+<QBMSXML>
+<SignonMsgsRq>
+<SignonDesktopRq>
+  <ClientDateTime>2010-12-15T12:06:50</ClientDateTime>
+  <ApplicationLogin>qbmsdesktopapp1.testdomain.com</ApplicationLogin>
+  <ConnectionTicket>TGT-126-i7luijuUrFg5R7vhocKmlQ</ConnectionTicket>
+</SignonDesktopRq>
+</SignonMsgsRq>
+  <QBMSXMLMsgsRq>
+     <CustomerScheduledBillingAddRq>
+	      <CustomerID>RebillCCWalletVisa1</CustomerID>
+	      <WalletEntryID>STRTYPE</WalletEntryID>
+	      <PaymentType>CreditCard</PaymentType>
+	      <Amount>1.00</Amount>
+	      <StartDate>2015-11-28</StartDate>
+	      <EndDate>2020-10-29</EndDate>
+	      <FrequencyExpression>0 0 0 10 * ?</FrequencyExpression>
+	      <ScheduledBillingStatus>Active</ScheduledBillingStatus>
+	      <TagValue>Test Tag</TagValue>
+	      <Comment>$1 charge everyday. All fields.</Comment>
+     </CustomerScheduledBillingAddRq>
+  </QBMSXMLMsgsRq>
+</QBMSXML>

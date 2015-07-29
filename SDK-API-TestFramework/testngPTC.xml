@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Suite" parallel="false">
+	<test name="Test" preserve-order="true">
+		<groups>
+			<run>
+				<exclude name="qa-only" />
+				<exclude name="unapproved-nonreopened-merchants" />
+			</run>
+		</groups>
+		<packages>
+			<package name="qbmssdk.*" />
+			<package name="mastermerchant.*" />
+		</packages>
+	</test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<?qbmsxml version="4.1"?>
+<QBMSXML>
+  <SignonMsgsRq>
+    <SignonDesktopRq>
+      <ClientDateTime>10/28/99</ClientDateTime>
+      <ApplicationLogin>imsqadesktoptest1</ApplicationLogin>
+      <ConnectionTicket>TGT-123-R6Y62O4V5YvpVw5zmeZlug</ConnectionTicket>
+      <Language>English</Language>
+      <AppID>56989462</AppID>
+      <AppVer>1.0</AppVer>
+    </SignonDesktopRq>
+  </SignonMsgsRq>
+  <QBMSXMLMsgsRq>
+    <CustomerCreditCardChargeRq>
+      <TransRequestID>Track2DataChargeRequest2</TransRequestID>
+      <Track2Data>;4638771001006202=250610100039300000?</Track2Data>
+      <Amount>0.01</Amount>
+      <NameOnCard>FDR</NameOnCard>
+      <CreditCardAddress>6902 Pine Street,NE</CreditCardAddress>
+      <CreditCardPostalCode>68016</CreditCardPostalCode>
+      <CardSecurityCode>111</CardSecurityCode>
+    </CustomerCreditCardChargeRq>
+  </QBMSXMLMsgsRq>
+</QBMSXML>

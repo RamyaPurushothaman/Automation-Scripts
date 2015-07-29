@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="1" time="1.271" errors="0" skipped="0" tests="1" name="TestSuite">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries"/>
+    <property name="java.vm.version" value="20.65-b04-462"/>
+    <property name="awt.nativeDoubleBuffering" value="true"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="mrj.build" value="11M4609"/>
+    <property name="java.vm.vendor" value="Apple Inc."/>
+    <property name="java.vendor.url" value="http://www.apple.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/cchang3/Documents/payments-api-testsuites/payments-api-testsuites"/>
+    <property name="java.runtime.version" value="1.6.0_65-b14-462-11M4609"/>
+    <property name="java.awt.graphicsenv" value="apple.awt.CGraphicsEnvironment"/>
+    <property name="basedir" value="/Users/cchang3/Documents/payments-api-testsuites/payments-api-testsuites"/>
+    <property name="java.endorsed.dirs" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="surefire.real.class.path" value="/Users/cchang3/Documents/payments-api-testsuites/payments-api-testsuites/target/surefire/surefirebooter3685070745998543653.jar"/>
+    <property name="java.io.tmpdir" value="/var/folders/v1/2r0hx_7s41q5t4y8t7xz7p11c4b023/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.jnu.encoding" value="MacRoman"/>
+    <property name="java.library.path" value=".:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="surefire.test.class.path" value="/Users/cchang3/Documents/payments-api-testsuites/payments-api-testsuites/target/test-classes:/Users/cchang3/Documents/payments-api-testsuites/payments-api-testsuites/target/classes:/Users/cchang3/.m2/repository/com/intuit/payments/tools/tame/tame-ws/6.7.0-SNAPSHOT/tame-ws-6.7.0-SNAPSHOT.jar:/Users/cchang3/.m2/repository/com/intuit/payments/tools/tame/tame-common-wsclient/6.7.0-SNAPSHOT/tame-common-wsclient-6.7.0-SNAPSHOT.jar:/Users/cchang3/.m2/repository/org/hamcrest/hamcrest-core/1.3.RC2/hamcrest-core-1.3.RC2.jar:/Users/cchang3/.m2/repository/org/hamcrest/hamcrest-integration/1.3.RC2/hamcrest-integration-1.3.RC2.jar:/Users/cchang3/.m2/repository/org/hamcrest/hamcrest-generator/1.3.RC2/hamcrest-generator-1.3.RC2.jar:/Users/cchang3/.m2/repository/qdox/qdox/1.6.1/qdox-1.6.1.jar:/Users/cchang3/.m2/repository/org/hamcrest/hamcrest-library/1.3.RC2/hamcrest-library-1.3.RC2.jar:/Users/cchang3/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/cchang3/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/cchang3/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/cchang3/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/cchang3/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/cchang3/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/cchang3/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar:/Users/cchang3/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar:/Users/cchang3/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/cchang3/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/Users/cchang3/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/cchang3/.m2/repository/net/sf/jtidy/jtidy/r938/jtidy-r938.jar:/Users/cchang3/.m2/repository/net/sourceforge/javacsv/javacsv/2.0/javacsv-2.0.jar:/Users/cchang3/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.9/jackson-mapper-asl-1.9.9.jar:/Users/cchang3/.m2/repository/xmlunit/xmlunit/1.1/xmlunit-1.1.jar:/Users/cchang3/.m2/repository/rhino/js/1.7R1/js-1.7R1.jar:/Users/cchang3/.m2/repository/com/intuit/payments/tools/tame/tame-common-utility/6.7.0-SNAPSHOT/tame-common-utility-6.7.0-SNAPSHOT.jar:/Users/cchang3/.m2/repository/com/splunk/splunk/1.2.1/splunk-1.2.1.jar:/Users/cchang3/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/cchang3/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar:/Users/cchang3/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/cchang3/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/cchang3/.m2/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar:/Users/cchang3/.m2/repository/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6.jar:/Users/cchang3/.m2/repository/com/googlecode/lambdaj/lambdaj/2.3.3/lambdaj-2.3.3.jar:/Users/cchang3/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:/Users/cchang3/.m2/repository/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar:/Users/cchang3/.m2/repository/net/sf/flatpack/flatpack/3.2.0/flatpack-3.2.0.jar:/Users/cchang3/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.1.0/jackson-dataformat-xml-2.1.0.jar:/Users/cchang3/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.1.0/jackson-core-2.1.0.jar:/Users/cchang3/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.1.0/jackson-annotations-2.1.0.jar:/Users/cchang3/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.1.0/jackson-databind-2.1.0.jar:/Users/cchang3/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.1.0/jackson-module-jaxb-annotations-2.1.0.jar:/Users/cchang3/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.1/stax2-api-3.1.1.jar:/Users/cchang3/.m2/repository/com/fasterxml/jackson-xml-databind/0.6.2/jackson-xml-databind-0.6.2.jar:/Users/cchang3/.m2/repository/org/jdom/jdom/1.0/jdom-1.0.jar:/Users/cchang3/.m2/repository/org/jboss/jaxen/1.1/jaxen-1.1.jar:/Users/cchang3/.m2/repository/org/jdom/jdom2/2.0.3/jdom2-2.0.3.jar:/Users/cchang3/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar:/Users/cchang3/.m2/repository/org/jboss/resteasy/jaxrs-api/2.3.5.Final/jaxrs-api-2.3.5.Final.jar:/Users/cchang3/.m2/repository/org/jboss/resteasy/resteasy-jaxrs/2.3.5.Final/resteasy-jaxrs-2.3.5.Final.jar:/Users/cchang3/.m2/repository/org/scannotation/scannotation/1.0.3/scannotation-1.0.3.jar:/Users/cchang3/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar:/Users/cchang3/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/cchang3/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/cchang3/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/cchang3/.m2/repository/org/jboss/resteasy/resteasy-jackson-provider/2.3.5.Final/resteasy-jackson-provider-2.3.5.Final.jar:/Users/cchang3/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.9/jackson-core-asl-1.9.9.jar:/Users/cchang3/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.9.9/jackson-jaxrs-1.9.9.jar:/Users/cchang3/.m2/repository/org/codehaus/jackson/jackson-xc/1.9.9/jackson-xc-1.9.9.jar:/Users/cchang3/.m2/repository/org/jboss/resteasy/resteasy-jaxb-provider/2.3.5.Final/resteasy-jaxb-provider-2.3.5.Final.jar:/Users/cchang3/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.4/jaxb-impl-2.2.4.jar:/Users/cchang3/.m2/repository/javax/xml/bind/jaxb-api/2.2.3/jaxb-api-2.2.3.jar:/Users/cchang3/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/Users/cchang3/.m2/repository/org/jboss/resteasy/resteasy-jettison-provider/2.3.5.Final/resteasy-jettison-provider-2.3.5.Final.jar:/Users/cchang3/.m2/repository/org/codehaus/jettison/jettison/1.3.1/jettison-1.3.1.jar:/Users/cchang3/.m2/repository/org/jboss/resteasy/tjws/2.3.5.Final/tjws-2.3.5.Final.jar:/Users/cchang3/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.8/surefire-testng-utils-2.8.jar:"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="50.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.9.2"/>
+    <property name="user.home" value="/Users/cchang3"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="apple.awt.CPrinterJob"/>
+    <property name="java.specification.version" value="1.6"/>
+    <property name="file.encoding" value="MacRoman"/>
+    <property name="user.name" value="cchang3"/>
+    <property name="java.class.path" value="/Users/cchang3/Documents/payments-api-testsuites/payments-api-testsuites/target/test-classes:/Users/cchang3/Documents/payments-api-testsuites/payments-api-testsuites/target/classes:/Users/cchang3/.m2/repository/com/intuit/payments/tools/tame/tame-ws/6.7.0-SNAPSHOT/tame-ws-6.7.0-SNAPSHOT.jar:/Users/cchang3/.m2/repository/com/intuit/payments/tools/tame/tame-common-wsclient/6.7.0-SNAPSHOT/tame-common-wsclient-6.7.0-SNAPSHOT.jar:/Users/cchang3/.m2/repository/org/hamcrest/hamcrest-core/1.3.RC2/hamcrest-core-1.3.RC2.jar:/Users/cchang3/.m2/repository/org/hamcrest/hamcrest-integration/1.3.RC2/hamcrest-integration-1.3.RC2.jar:/Users/cchang3/.m2/repository/org/hamcrest/hamcrest-generator/1.3.RC2/hamcrest-generator-1.3.RC2.jar:/Users/cchang3/.m2/repository/qdox/qdox/1.6.1/qdox-1.6.1.jar:/Users/cchang3/.m2/repository/org/hamcrest/hamcrest-library/1.3.RC2/hamcrest-library-1.3.RC2.jar:/Users/cchang3/.m2/repository/org/hamcrest/hamcrest-all/1.3/hamcrest-all-1.3.jar:/Users/cchang3/.m2/repository/org/testng/testng/6.8/testng-6.8.jar:/Users/cchang3/.m2/repository/junit/junit/4.10/junit-4.10.jar:/Users/cchang3/.m2/repository/org/beanshell/bsh/2.0b4/bsh-2.0b4.jar:/Users/cchang3/.m2/repository/com/beust/jcommander/1.27/jcommander-1.27.jar:/Users/cchang3/.m2/repository/org/yaml/snakeyaml/1.6/snakeyaml-1.6.jar:/Users/cchang3/.m2/repository/org/apache/httpcomponents/httpcore/4.3.1/httpcore-4.3.1.jar:/Users/cchang3/.m2/repository/org/apache/httpcomponents/httpclient/4.3.1/httpclient-4.3.1.jar:/Users/cchang3/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar:/Users/cchang3/.m2/repository/commons-codec/commons-codec/1.6/commons-codec-1.6.jar:/Users/cchang3/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/cchang3/.m2/repository/net/sf/jtidy/jtidy/r938/jtidy-r938.jar:/Users/cchang3/.m2/repository/net/sourceforge/javacsv/javacsv/2.0/javacsv-2.0.jar:/Users/cchang3/.m2/repository/org/codehaus/jackson/jackson-mapper-asl/1.9.9/jackson-mapper-asl-1.9.9.jar:/Users/cchang3/.m2/repository/xmlunit/xmlunit/1.1/xmlunit-1.1.jar:/Users/cchang3/.m2/repository/rhino/js/1.7R1/js-1.7R1.jar:/Users/cchang3/.m2/repository/com/intuit/payments/tools/tame/tame-common-utility/6.7.0-SNAPSHOT/tame-common-utility-6.7.0-SNAPSHOT.jar:/Users/cchang3/.m2/repository/com/splunk/splunk/1.2.1/splunk-1.2.1.jar:/Users/cchang3/.m2/repository/org/apache/commons/commons-lang3/3.1/commons-lang3-3.1.jar:/Users/cchang3/.m2/repository/commons-io/commons-io/2.1/commons-io-2.1.jar:/Users/cchang3/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/Users/cchang3/.m2/repository/log4j/log4j/1.2.16/log4j-1.2.16.jar:/Users/cchang3/.m2/repository/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar:/Users/cchang3/.m2/repository/org/slf4j/slf4j-log4j12/1.6.6/slf4j-log4j12-1.6.6.jar:/Users/cchang3/.m2/repository/com/googlecode/lambdaj/lambdaj/2.3.3/lambdaj-2.3.3.jar:/Users/cchang3/.m2/repository/org/objenesis/objenesis/1.2/objenesis-1.2.jar:/Users/cchang3/.m2/repository/cglib/cglib-nodep/2.2/cglib-nodep-2.2.jar:/Users/cchang3/.m2/repository/net/sf/flatpack/flatpack/3.2.0/flatpack-3.2.0.jar:/Users/cchang3/.m2/repository/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.1.0/jackson-dataformat-xml-2.1.0.jar:/Users/cchang3/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.1.0/jackson-core-2.1.0.jar:/Users/cchang3/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.1.0/jackson-annotations-2.1.0.jar:/Users/cchang3/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.1.0/jackson-databind-2.1.0.jar:/Users/cchang3/.m2/repository/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.1.0/jackson-module-jaxb-annotations-2.1.0.jar:/Users/cchang3/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.1/stax2-api-3.1.1.jar:/Users/cchang3/.m2/repository/com/fasterxml/jackson-xml-databind/0.6.2/jackson-xml-databind-0.6.2.jar:/Users/cchang3/.m2/repository/org/jdom/jdom/1.0/jdom-1.0.jar:/Users/cchang3/.m2/repository/org/jboss/jaxen/1.1/jaxen-1.1.jar:/Users/cchang3/.m2/repository/org/jdom/jdom2/2.0.3/jdom2-2.0.3.jar:/Users/cchang3/.m2/repository/commons-beanutils/commons-beanutils/1.8.3/commons-beanutils-1.8.3.jar:/Users/cchang3/.m2/repository/org/jboss/resteasy/jaxrs-api/2.3.5.Final/jaxrs-api-2.3.5.Final.jar:/Users/cchang3/.m2/repository/org/jboss/resteasy/resteasy-jaxrs/2.3.5.Final/resteasy-jaxrs-2.3.5.Final.jar:/Users/cchang3/.m2/repository/org/scannotation/scannotation/1.0.3/scannotation-1.0.3.jar:/Users/cchang3/.m2/repository/javassist/javassist/3.12.1.GA/javassist-3.12.1.GA.jar:/Users/cchang3/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar:/Users/cchang3/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar:/Users/cchang3/.m2/repository/net/jcip/jcip-annotations/1.0/jcip-annotations-1.0.jar:/Users/cchang3/.m2/repository/org/jboss/resteasy/resteasy-jackson-provider/2.3.5.Final/resteasy-jackson-provider-2.3.5.Final.jar:/Users/cchang3/.m2/repository/org/codehaus/jackson/jackson-core-asl/1.9.9/jackson-core-asl-1.9.9.jar:/Users/cchang3/.m2/repository/org/codehaus/jackson/jackson-jaxrs/1.9.9/jackson-jaxrs-1.9.9.jar:/Users/cchang3/.m2/repository/org/codehaus/jackson/jackson-xc/1.9.9/jackson-xc-1.9.9.jar:/Users/cchang3/.m2/repository/org/jboss/resteasy/resteasy-jaxb-provider/2.3.5.Final/resteasy-jaxb-provider-2.3.5.Final.jar:/Users/cchang3/.m2/repository/com/sun/xml/bind/jaxb-impl/2.2.4/jaxb-impl-2.2.4.jar:/Users/cchang3/.m2/repository/javax/xml/bind/jaxb-api/2.2.3/jaxb-api-2.2.3.jar:/Users/cchang3/.m2/repository/javax/xml/stream/stax-api/1.0-2/stax-api-1.0-2.jar:/Users/cchang3/.m2/repository/org/jboss/resteasy/resteasy-jettison-provider/2.3.5.Final/resteasy-jettison-provider-2.3.5.Final.jar:/Users/cchang3/.m2/repository/org/codehaus/jettison/jettison/1.3.1/jettison-1.3.1.jar:/Users/cchang3/.m2/repository/org/jboss/resteasy/tjws/2.3.5.Final/tjws-2.3.5.Final.jar:/Users/cchang3/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/2.8/surefire-testng-utils-2.8.jar:"/>
+    <property name="java.vm.specification.version" value="1.0"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home"/>
+    <property name="sun.java.command" value="/Users/cchang3/Documents/payments-api-testsuites/payments-api-testsuites/target/surefire/surefirebooter3685070745998543653.jar /Users/cchang3/Documents/payments-api-testsuites/payments-api-testsuites/target/surefire/surefire4003173821629574217tmp /Users/cchang3/Documents/payments-api-testsuites/payments-api-testsuites/target/surefire/surefire662073109891365212tmp"/>
+    <property name="java.specification.vendor" value="Sun Microsystems Inc."/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="apple.awt.CToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.6.0_65"/>
+    <property name="java.ext.dirs" value="/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext"/>
+    <property name="sun.boot.class.path" value="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar"/>
+    <property name="java.vendor" value="Apple Inc."/>
+    <property name="localRepository" value="/Users/cchang3/.m2/repository"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.apple.com/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="mrj.version" value="1070.1.6.0_65-462"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.961" classname="com.intuit.paymentsapi.us.ChargeTest" name="testCCCharge">
+    <failure message="expected:&lt;200&gt; but was:&lt;404&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected:&lt;200&gt; but was:&lt;404&gt;
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.failNotEquals(Assert.java:287)
+	at junit.framework.Assert.assertEquals(Assert.java:67)
+	at junit.framework.Assert.assertEquals(Assert.java:199)
+	at junit.framework.Assert.assertEquals(Assert.java:205)
+	at com.intuit.paymentsapi.us.ChargeTest.testCCCharge(ChargeTest.java:49)
+</failure>
+    <system-out>@HL
+@HL-------------------------------------------------------
+@HL T E S T S
+@HL-------------------------------------------------------
+@SLRunning TestSuite
+2014-06-05 15:52:32,126 [main] DEBUG com.intuit.tame.common.utility.testng.ReportLoggerSuiteListner - [TAME] outputDirectory: /Users/cchang3/Documents/payments-api-testsuites/payments-api-testsuites/target/surefire-reports/Suite (from ISuite)
+2014-06-05 15:52:32,127 [main] DEBUG com.intuit.tame.common.utility.testng.ReportLoggerSuiteListner - [TAME] cwd: /Users/cchang3/Documents/payments-api-testsuites/payments-api-testsuites
+2014-06-05 15:52:32,127 [main] DEBUG com.intuit.tame.common.utility.testng.ReportLoggerSuiteListner - [TAME] name: Suite
+2014-06-05 15:52:32,127 [main] DEBUG com.intuit.tame.common.utility.testng.ReportLoggerSuiteListner - [TAME] copyToConsole:true
+2014-06-05 15:52:32,432 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}-&gt;https://transaction-api-qal.payments.intuit.com
+2014-06-05 15:52:32,537 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to transaction-api-qal.payments.intuit.com:443
+2014-06-05 15:52:32,996 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: best-match
+2014-06-05 15:52:33,002 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+2014-06-05 15:52:33,002 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+2014-06-05 15:52:33,002 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+2014-06-05 15:52:33,003 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /v2/charges HTTP/1.1
+2014-06-05 15:52:33,003 [main] DEBUG org.apache.http.wire -  &gt;&gt; &quot;POST /v2/charges HTTP/1.1[\r][\n]&quot;
+2014-06-05 15:52:33,003 [main] DEBUG org.apache.http.wire -  &gt;&gt; &quot;Authorization: Intuit_IAM_Authentication intuit_appid=Intuit.payments.paymentsapi.test, intuit_app_secret=3ckq2geijG1badWv9uWHce[\r][\n]&quot;
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.wire -  &gt;&gt; &quot;realmid: 216214156[\r][\n]&quot;
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.wire -  &gt;&gt; &quot;intuittid: 9cfa5f45-1db0-4b0e-afae-d307cf765274[\r][\n]&quot;
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.wire -  &gt;&gt; &quot;Content-Type: application/json[\r][\n]&quot;
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.wire -  &gt;&gt; &quot;Accept: application/json[\r][\n]&quot;
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.wire -  &gt;&gt; &quot;Content-Length: 191[\r][\n]&quot;
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.wire -  &gt;&gt; &quot;Host: transaction-api-qal.payments.intuit.com[\r][\n]&quot;
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.wire -  &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.wire -  &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.3.1 (java 1.5)[\r][\n]&quot;
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.wire -  &gt;&gt; &quot;[\r][\n]&quot;
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.headers - &gt;&gt; POST /v2/charges HTTP/1.1
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.headers - &gt;&gt; Authorization: Intuit_IAM_Authentication intuit_appid=Intuit.payments.paymentsapi.test, intuit_app_secret=3ckq2geijG1badWv9uWHce
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.headers - &gt;&gt; realmid: 216214156
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.headers - &gt;&gt; intuittid: 9cfa5f45-1db0-4b0e-afae-d307cf765274
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.headers - &gt;&gt; Content-Type: application/json
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.headers - &gt;&gt; Accept: application/json
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.headers - &gt;&gt; Content-Length: 191
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.headers - &gt;&gt; Host: transaction-api-qal.payments.intuit.com
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.headers - &gt;&gt; Connection: Keep-Alive
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.headers - &gt;&gt; User-Agent: Apache-HttpClient/4.3.1 (java 1.5)
+2014-06-05 15:52:33,004 [main] DEBUG org.apache.http.wire -  &gt;&gt; &quot;{&quot;card&quot;:{&quot;zip&quot;:&quot;94086&quot;,&quot;expyear&quot;:&quot;2020&quot;,&quot;expmonth&quot;:&quot;02&quot;,&quot;name&quot;:&quot;Lucy Chang&quot;,&quot;state&quot;:&quot;CA&quot;,&quot;cvc&quot;:&quot;123&quot;,&quot;address1&quot;:&quot;1130 Kifer Rd&quot;,&quot;number&quot;:&quot;4111111111111111&quot;,&quot;country&quot;:&quot;US&quot;,&quot;city&quot;:&quot;Sunnyvale&quot;}}&quot;
+2014-06-05 15:52:33,083 [main] DEBUG org.apache.http.wire -  &lt;&lt; &quot;HTTP/1.1 404 Code:RouteNotFound,Message:Route not found,Details:No key was found for http request:/v2/charges,Type:SYSTEM[\r][\n]&quot;
+2014-06-05 15:52:33,085 [main] DEBUG org.apache.http.wire -  &lt;&lt; &quot;Date: Thu, 05 Jun 2014 03:52:32 GMT[\r][\n]&quot;
+2014-06-05 15:52:33,085 [main] DEBUG org.apache.http.wire -  &lt;&lt; &quot;Content-Type: text/plain[\r][\n]&quot;
+2014-06-05 15:52:33,085 [main] DEBUG org.apache.http.wire -  &lt;&lt; &quot;Content-Length: 0[\r][\n]&quot;
+2014-06-05 15:52:33,085 [main] DEBUG org.apache.http.wire -  &lt;&lt; &quot;intuit_tid: gw-ad44c689-1dce-42ab-88e4-38fb0782f883[\r][\n]&quot;
+2014-06-05 15:52:33,085 [main] DEBUG org.apache.http.wire -  &lt;&lt; &quot;Keep-Alive: timeout=5, max=75[\r][\n]&quot;
+2014-06-05 15:52:33,085 [main] DEBUG org.apache.http.wire -  &lt;&lt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+2014-06-05 15:52:33,085 [main] DEBUG org.apache.http.wire -  &lt;&lt; &quot;[\r][\n]&quot;
+2014-06-05 15:52:33,086 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 404 Code:RouteNotFound,Message:Route not found,Details:No key was found for http request:/v2/charges,Type:SYSTEM
+2014-06-05 15:52:33,086 [main] DEBUG org.apache.http.headers - &lt;&lt; HTTP/1.1 404 Code:RouteNotFound,Message:Route not found,Details:No key was found for http request:/v2/charges,Type:SYSTEM
+2014-06-05 15:52:33,086 [main] DEBUG org.apache.http.headers - &lt;&lt; Date: Thu, 05 Jun 2014 03:52:32 GMT
+2014-06-05 15:52:33,086 [main] DEBUG org.apache.http.headers - &lt;&lt; Content-Type: text/plain
+2014-06-05 15:52:33,086 [main] DEBUG org.apache.http.headers - &lt;&lt; Content-Length: 0
+2014-06-05 15:52:33,086 [main] DEBUG org.apache.http.headers - &lt;&lt; intuit_tid: gw-ad44c689-1dce-42ab-88e4-38fb0782f883
+2014-06-05 15:52:33,086 [main] DEBUG org.apache.http.headers - &lt;&lt; Keep-Alive: timeout=5, max=75
+2014-06-05 15:52:33,086 [main] DEBUG org.apache.http.headers - &lt;&lt; Connection: Keep-Alive
+2014-06-05 15:52:33,090 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive for 5000 MILLISECONDS
+</system-out>
+  </testcase>
+</testsuite>

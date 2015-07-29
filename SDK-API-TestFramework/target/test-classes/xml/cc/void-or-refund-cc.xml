@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?qbmsxml version="4.5"?>
+<QBMSXML>
+	<SignonMsgsRq>
+		 <SignonDesktopRq>
+		  	<ClientDateTime>2010-12-15T12:06:50</ClientDateTime>
+			<ApplicationLogin>qbmsdesktopapp1.testdomain.com</ApplicationLogin>
+			<ConnectionTicket>TGT-126-i7luijuUrFg5R7vhocKmlQ</ConnectionTicket>
+		 </SignonDesktopRq>
+	</SignonMsgsRq>
+	
+	<QBMSXMLMsgsRq>
+		<CustomerCreditCardTxnVoidOrRefundRq>
+		  <TransRequestID>RequiredWithAnyData</TransRequestID>
+		  <CreditCardTransID>RequiredValueFromResp</CreditCardTransID>
+		  <ClientTransID>Optional</ClientTransID>
+		  <Amount>1.00</Amount>
+		  <CommercialCardCode>Optional</CommercialCardCode>
+		  <SalesTaxAmount>0.01</SalesTaxAmount>
+ 		</CustomerCreditCardTxnVoidOrRefundRq>
+	 </QBMSXMLMsgsRq>
+	 
+</QBMSXML>

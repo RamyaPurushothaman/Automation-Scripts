@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.271 sec <<< FAILURE!
+testCCCharge(com.intuit.paymentsapi.us.ChargeTest)  Time elapsed: 0.961 sec  <<< FAILURE!
+junit.framework.AssertionFailedError: expected:<200> but was:<404>
+	at junit.framework.Assert.fail(Assert.java:50)
+	at junit.framework.Assert.failNotEquals(Assert.java:287)
+	at junit.framework.Assert.assertEquals(Assert.java:67)
+	at junit.framework.Assert.assertEquals(Assert.java:199)
+	at junit.framework.Assert.assertEquals(Assert.java:205)
+	at com.intuit.paymentsapi.us.ChargeTest.testCCCharge(ChargeTest.java:49)
+

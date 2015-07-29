@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?qbmsxml version="4.0"?>
+<QBMSXML>
+  <SignonMsgsRq>
+    <SignonDesktopRq>
+      <ClientDateTime>10/28/99</ClientDateTime>
+      <ApplicationLogin>imsqadesktoptest2</ApplicationLogin>
+      <ConnectionTicket>TGT-72-ufUU_avjxYulsjmHRIxLcQ</ConnectionTicket>
+    </SignonDesktopRq>
+    
+  </SignonMsgsRq>
+    <QBMSXMLMsgsRq>
+        <CustomerCheckVerificationRq>
+            <TransRequestID>CheckVerification1</TransRequestID>
+            <KeyEnteredCheckInfo>
+                <RoutingNumber>490000018</RoutingNumber>
+                <AccountNumber>11000000</AccountNumber>
+                <CheckNumber>8065</CheckNumber>
+                <BusinessPaymentInfo>
+                    <BusinessDebitAccountType>Checking</BusinessDebitAccountType>
+                    <PayorFirstName>TestFName</PayorFirstName>
+                    <PayorLastName>TestLName</PayorLastName>
+                </BusinessPaymentInfo>
+            </KeyEnteredCheckInfo>
+            <PayorPhoneNumber>9875673523</PayorPhoneNumber>
+            <Amount>1.68</Amount>
+            <PaymentMode>Telephone</PaymentMode>
+            <PayeeName>AcctNum3</PayeeName>
+            <Comment>Check Verify SDK 4.0 </Comment>
+        </CustomerCheckVerificationRq>
+    </QBMSXMLMsgsRq>
+</QBMSXML> 
+

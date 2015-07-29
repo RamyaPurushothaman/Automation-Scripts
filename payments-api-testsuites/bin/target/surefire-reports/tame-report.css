@@ -1,0 +1,42 @@
+@CHARSET "UTF-8";
+
+a.tame:link {
+	color: #000000;
+	text-decoration: underline;
+}
+
+a.tame:active {
+	color: #000033;
+	text-decoration: none;
+}
+
+a.tame:visited {
+	color: #000066;
+	text-decoration: none;
+}
+
+a.tame:hover {
+	color: #003300;
+	text-decoration: underline;
+}
+
+#screenshot {
+	position: absolute;
+	border: 1px solid #ccc;
+	background: #333;
+	padding: 5px;
+	display: none;
+	color: #fff;
+}
+
+/* HOVER STYLES */
+#pop-up {
+	display: none;
+	position: absolute;
+	width: 280px;
+	padding: 10px;
+	background: #eeeeee;
+	color: #000000;
+	border: 1px solid #1a1a1a;
+	font-size: 90%;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?qbmsxml version="4.4"?>
+<QBMSXML>
+  <SignonMsgsRq>
+    <SignonDesktopRq>
+      <ClientDateTime>02/15/2013</ClientDateTime>
+      <ApplicationLogin>imsqadesktoptest2</ApplicationLogin>
+      <ConnectionTicket>TGT-72-ufUU_avjxYulsjmHRIxLcQ</ConnectionTicket>
+    </SignonDesktopRq>
+  </SignonMsgsRq>
+  <QBMSXMLMsgsRq>
+    <CustomerCreditCardChargeRq>
+      <TransRequestID>Track1DataCharge</TransRequestID>
+      <Track1Data>%B4111111111111111^Grace/Xu ^2209961767676hghghghghg123456?</Track1Data>
+      <Amount>10.10</Amount>
+      <NameOnCard>Grace Xu</NameOnCard>
+      <CreditCardAddress>6 WILLOW ST</CreditCardAddress>
+      <CreditCardCity>Manchester</CreditCardCity>
+      <CreditCardState>NH</CreditCardState>
+      <CreditCardPostalCode>03103</CreditCardPostalCode>
+    </CustomerCreditCardChargeRq>
+  </QBMSXMLMsgsRq>
+</QBMSXML>

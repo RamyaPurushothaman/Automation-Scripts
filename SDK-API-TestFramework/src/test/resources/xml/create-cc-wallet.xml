@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<?qbmsxml version="5.0"?>
+<QBMSXML>
+	<SignonMsgsRq>
+		<SignonDesktopRq>
+		  <ClientDateTime>2010-12-15T12:06:50</ClientDateTime>
+		  <ApplicationLogin>qbmsdesktopapp1.testdomain.com</ApplicationLogin>
+		  <ConnectionTicket>TGT-126-i7luijuUrFg5R7vhocKmlQ</ConnectionTicket>
+		</SignonDesktopRq>
+	</SignonMsgsRq>
+
+    <QBMSXMLMsgsRq>
+ 	   <CustomerCreditCardWalletAddRq>
+       <CustomerID>RebillCCWalletVisa1</CustomerID>                    
+       <CreditCardNumber>4111111111111111</CreditCardNumber>         
+       <ExpirationMonth>02</ExpirationMonth>           
+       <ExpirationYear>2020</ExpirationYear>
+       <NameOnCard>WalletVisa1</NameOnCard>
+       <CreditCardAddress>1234 Test Ave, Cupertino, CA</CreditCardAddress>       
+       <CreditCardPostalCode>94087</CreditCardPostalCode>  
+       </CustomerCreditCardWalletAddRq>
+  </QBMSXMLMsgsRq>
+  
+</QBMSXML>

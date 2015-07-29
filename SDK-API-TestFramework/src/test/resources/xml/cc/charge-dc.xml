@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?qbmsxml version="3.2"?>
+<QBMSXML>
+  <SignonMsgsRq>
+    <SignonDesktopRq>
+      <ClientDateTime>10/28/99</ClientDateTime>
+      <ApplicationLogin>imsqadesktoptest2</ApplicationLogin>
+      <ConnectionTicket>TGT-72-ufUU_avjxYulsjmHRIxLcQ</ConnectionTicket>
+      <Language>English</Language>
+      <AppID>100020122</AppID>
+      <AppVer>1.0</AppVer>
+    </SignonDesktopRq>
+  </SignonMsgsRq>
+  <QBMSXMLMsgsRq>
+    <CustomerDebitCardChargeRq>
+      <TransRequestID>DCSaleWithBIDForSDK32</TransRequestID>
+      <Track2Data>;372449635312118=1202101123456789?</Track2Data>
+      <PINBlock>1234567890123456</PINBlock>
+      <SMID>123456789012</SMID>
+      <Amount>30.00</Amount>
+      <NameOnCard>Test</NameOnCard>
+      <CashBackAmount>10.00</CashBackAmount>
+      <ClientTransID>q1234567</ClientTransID>
+    </CustomerDebitCardChargeRq>
+  </QBMSXMLMsgsRq>
+</QBMSXML>

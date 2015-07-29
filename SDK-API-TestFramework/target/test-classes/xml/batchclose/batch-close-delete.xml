@@ -1,0 +1,18 @@
+<?qbmsxml version="4.1"?>
+<QBMSXML>
+  <SignonMsgsRq>
+    <SignonDesktopRq>
+      <ClientDateTime>10/28/99</ClientDateTime>
+      <ApplicationLogin>imsqadesktoptest1</ApplicationLogin>
+      <ConnectionTicket>TGT-230-PLwtnwqvzP78yHJigVo$XA</ConnectionTicket>
+      <Language>English</Language>
+      <AppID>56989462</AppID>
+      <AppVer>1.0</AppVer>
+    </SignonDesktopRq>
+  </SignonMsgsRq>
+    <QBMSXMLMsgsRq>
+	<MerchantAccountModRq>           
+		<BatchCloseTimeDel>true</BatchCloseTimeDel>              
+	</MerchantAccountModRq>
+  </QBMSXMLMsgsRq>
+</QBMSXML>

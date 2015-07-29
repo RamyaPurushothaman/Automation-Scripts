@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?qbmsxml version="4.2"?>
+<QBMSXML>
+  <SignonMsgsRq>
+    <SignonDesktopRq>
+      <ClientDateTime>10/28/99</ClientDateTime>
+      <ApplicationLogin>imsqadesktoptest2</ApplicationLogin>
+      <ConnectionTicket>TGT-72-ufUU_avjxYulsjmHRIxLcQ</ConnectionTicket>
+      <Language>English</Language>
+      <AppID>100020122</AppID>
+      <AppVer>1.0</AppVer>
+    </SignonDesktopRq>
+  </SignonMsgsRq>
+  <QBMSXMLMsgsRq>
+    <MerchantAccountTxnQueryRq>
+      <PaymentType>CreditCard</PaymentType>
+      <LogicalExpr1>
+        <LogicalOp>And</LogicalOp>
+        <RelativeExpr>
+          <RelativeOp>Equals</RelativeOp>
+          <Name>AppID</Name>
+          <Value>QBMS SDK - 56989462</Value>
+        </RelativeExpr>
+        <RelativeExpr>
+          <RelativeOp>Equals</RelativeOp>
+          <Name>TxnType</Name>
+          <Value>All</Value>
+        </RelativeExpr>
+        <RelativeExpr>
+          <RelativeOp>Equals</RelativeOp>
+          <Name>StartDate</Name>
+          <Value>2010-07-27T07:00:00</Value>
+        </RelativeExpr>
+        <RelativeExpr>
+          <RelativeOp>Equals</RelativeOp>
+          <Name>EndDate</Name>
+          <Value>2010-07-27T13:00:00</Value>
+        </RelativeExpr>
+      </LogicalExpr1>
+    </MerchantAccountTxnQueryRq>
+  </QBMSXMLMsgsRq>
+</QBMSXML>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<?qbmsxml version="5.0"?>
+<QBMSXML>
+  <SignonMsgsRq>
+    <SignonDesktopRq>
+      <ClientDateTime>2013-04-23T02:46:41</ClientDateTime>
+      <ApplicationLogin>imsqadesktoptest2</ApplicationLogin>
+      <ConnectionTicket>TGT-38-781UcAJqa9pk2jKxBIzySA</ConnectionTicket>
+      <Language>English</Language>
+      <AppID>100020122</AppID>
+      <AppVer>1.0</AppVer>
+    </SignonDesktopRq>
+  </SignonMsgsRq>
+  <QBMSXMLMsgsRq>
+      <CustomerGiftCardSecureRedeemRq> 
+          <TransRequestID>TesT63</TransRequestID>     
+          <GCNumber>603628229571000002875</GCNumber>        
+          <GCAmount>10.00</GCAmount>        
+      </CustomerGiftCardSecureRedeemRq>
+  </QBMSXMLMsgsRq>
+</QBMSXML>
